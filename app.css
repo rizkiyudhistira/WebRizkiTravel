@@ -1,0 +1,106 @@
+header {
+    background-color: brown;
+    height: 70px;
+    position: center;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 3px;
+    
+  }
+
+#content {
+  background-color: greenyellow;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  color: white;
+  font-size: 30px;
+     
+  }
+
+#album card {
+  text-align: center;
+}
+
+#content h1 {
+  font-size: 50px;
+}
+
+#content h3 {
+  font-size: 25px;
+}
+
+#content h5 {
+  font-size: 17px;
+}
+
+#clients {
+  background-color: burlywood;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  color: white;
+  font-size: 30px;  
+  text-align: center;
+  
+}
+
+#footer {
+  background-color: brown;
+  height: 80px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+#footer h6 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: right;
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding: 21px 23px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: orange;
+  }
+
+  ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+
+  
